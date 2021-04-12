@@ -52,14 +52,14 @@
     "absolutePath": "/Users/trangiang/Desktop/P2pLending/contracts/IGCoin.sol",
     "exportedSymbols": {
       "IGCoin": [
-        381
+        350
       ]
     },
-    "id": 382,
+    "id": 351,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 366,
+        "id": 335,
         "literals": [
           "solidity",
           ">=",
@@ -78,32 +78,32 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 381,
+        "id": 350,
         "linearizedBaseContracts": [
-          381
+          350
         ],
         "name": "IGCoin",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "2cf9954b",
-            "id": 373,
+            "id": 342,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "transferToPeerToPeerLendingContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 371,
+              "id": 340,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 368,
+                  "id": 337,
                   "mutability": "mutable",
                   "name": "_spender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 373,
+                  "scope": 342,
                   "src": "103:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -112,7 +112,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 367,
+                    "id": 336,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "103:7:4",
@@ -126,11 +126,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 370,
+                  "id": 339,
                   "mutability": "mutable",
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 373,
+                  "scope": 342,
                   "src": "121:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -139,7 +139,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 369,
+                    "id": 338,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "121:4:4",
@@ -154,12 +154,12 @@
               "src": "102:32:4"
             },
             "returnParameters": {
-              "id": 372,
+              "id": 341,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "144:0:4"
             },
-            "scope": 381,
+            "scope": 350,
             "src": "58:87:4",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -167,23 +167,23 @@
           },
           {
             "functionSelector": "7107cc9d",
-            "id": 380,
+            "id": 349,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "transferBackToUser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 378,
+              "id": 347,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 375,
+                  "id": 344,
                   "mutability": "mutable",
                   "name": "_receiver",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
+                  "scope": 349,
                   "src": "178:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -192,7 +192,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 374,
+                    "id": 343,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "178:7:4",
@@ -206,11 +206,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 377,
+                  "id": 346,
                   "mutability": "mutable",
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
+                  "scope": 349,
                   "src": "197:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -219,7 +219,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 376,
+                    "id": 345,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "197:4:4",
@@ -234,19 +234,19 @@
               "src": "177:33:4"
             },
             "returnParameters": {
-              "id": 379,
+              "id": 348,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "219:0:4"
             },
-            "scope": 381,
+            "scope": 350,
             "src": "150:70:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 382,
+        "scope": 351,
         "src": "36:186:4"
       }
     ],
@@ -257,7 +257,7 @@
       "absolutePath": "/Users/trangiang/Desktop/P2pLending/contracts/IGCoin.sol",
       "exportedSymbols": {
         "IGCoin": [
-          381
+          350
         ]
       }
     },
@@ -274,7 +274,7 @@
             ".0"
           ]
         },
-        "id": 366,
+        "id": 335,
         "name": "PragmaDirective",
         "src": "0:34:4"
       },
@@ -290,10 +290,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            381
+            350
           ],
           "name": "IGCoin",
-          "scope": 382
+          "scope": 351
         },
         "children": [
           {
@@ -306,7 +306,7 @@
                 null
               ],
               "name": "transferToPeerToPeerLendingContract",
-              "scope": 381,
+              "scope": 350,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -319,7 +319,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_spender",
-                      "scope": 373,
+                      "scope": 342,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -332,12 +332,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 367,
+                        "id": 336,
                         "name": "ElementaryTypeName",
                         "src": "103:7:4"
                       }
                     ],
-                    "id": 368,
+                    "id": 337,
                     "name": "VariableDeclaration",
                     "src": "103:16:4"
                   },
@@ -346,7 +346,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_amount",
-                      "scope": 373,
+                      "scope": 342,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -358,17 +358,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 369,
+                        "id": 338,
                         "name": "ElementaryTypeName",
                         "src": "121:4:4"
                       }
                     ],
-                    "id": 370,
+                    "id": 339,
                     "name": "VariableDeclaration",
                     "src": "121:12:4"
                   }
                 ],
-                "id": 371,
+                "id": 340,
                 "name": "ParameterList",
                 "src": "102:32:4"
               },
@@ -379,12 +379,12 @@
                   ]
                 },
                 "children": [],
-                "id": 372,
+                "id": 341,
                 "name": "ParameterList",
                 "src": "144:0:4"
               }
             ],
-            "id": 373,
+            "id": 342,
             "name": "FunctionDefinition",
             "src": "58:87:4"
           },
@@ -398,7 +398,7 @@
                 null
               ],
               "name": "transferBackToUser",
-              "scope": 381,
+              "scope": 350,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -411,7 +411,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_receiver",
-                      "scope": 380,
+                      "scope": 349,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -424,12 +424,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 374,
+                        "id": 343,
                         "name": "ElementaryTypeName",
                         "src": "178:7:4"
                       }
                     ],
-                    "id": 375,
+                    "id": 344,
                     "name": "VariableDeclaration",
                     "src": "178:17:4"
                   },
@@ -438,7 +438,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_amount",
-                      "scope": 380,
+                      "scope": 349,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -450,17 +450,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 376,
+                        "id": 345,
                         "name": "ElementaryTypeName",
                         "src": "197:4:4"
                       }
                     ],
-                    "id": 377,
+                    "id": 346,
                     "name": "VariableDeclaration",
                     "src": "197:12:4"
                   }
                 ],
-                "id": 378,
+                "id": 347,
                 "name": "ParameterList",
                 "src": "177:33:4"
               },
@@ -471,22 +471,22 @@
                   ]
                 },
                 "children": [],
-                "id": 379,
+                "id": 348,
                 "name": "ParameterList",
                 "src": "219:0:4"
               }
             ],
-            "id": 380,
+            "id": 349,
             "name": "FunctionDefinition",
             "src": "150:70:4"
           }
         ],
-        "id": 381,
+        "id": 350,
         "name": "ContractDefinition",
         "src": "36:186:4"
       }
     ],
-    "id": 382,
+    "id": 351,
     "name": "SourceUnit",
     "src": "0:223:4"
   },
@@ -496,7 +496,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-11T16:33:35.497Z",
+  "updatedAt": "2021-04-12T15:37:30.840Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

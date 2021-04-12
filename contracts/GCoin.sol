@@ -24,8 +24,15 @@ contract GCoin {
     }
 
     modifier onlyPeerToPeerLendingContract () {
-        require(peerToPeerLendingContractAddress == msg.sender, 'Only PeerToPeerLendingContract ');
+        require(
+            peerToPeerLendingContractAddress == msg.sender,
+             'Only PeerToPeerLendingContract '
+            );
         _;
+    }
+
+    function setpeerToPeerLendingContractAddress (address _address) public {
+        peerToPeerLendingContractAddress = _address;
     }
 
     function mint (address _receiver, uint _amount) public onlyOwner {
@@ -54,4 +61,5 @@ contract GCoin {
     function transferToPeerToPeerLendingContract (address _sender, uint _amount) public onlyPeerToPeerLendingContract {
         _transfer(_sender, peerToPeerLendingContractAddress, _amount);
     }
+
 }
